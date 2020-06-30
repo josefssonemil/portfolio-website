@@ -186,3 +186,19 @@ html {
 .project-halo{
     background-image: url("/assets/project-halo.jpg");
 }
+
+.kuggen {
+    background-image: url("/assets/kuggen.png");
+}
+
+.gui {
+    background-image: url("/assets/gui.png");
+}
+
+.imat {
+    background-image: url("/assets/imat.png");
+}
+
+.illegal-aliens {
+    background-image: url("/assets/illegal.png");
+}
