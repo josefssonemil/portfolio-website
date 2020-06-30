@@ -91,7 +91,7 @@ body, html{
     overflow:hidden;
     position:relative;
     text-align:center;
-    cursor:default;
+    cursor:pointer;
     }
     
     .hovereffect .overlay {
@@ -152,6 +152,10 @@ body, html{
     -ms-transform:translatey(0);
     -webkit-transform:translatey(0);
     transform:translatey(0);
+    }
+    .card a {
+        text-decoration:none;
+        color:white;
     }
 
     .text-small-overlay {
