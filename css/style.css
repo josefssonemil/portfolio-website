@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 body,
 html {
     width: 100%;
     background-color: white;
     color: black;
+    /*font-family: 'Poppins', sans-serif;*/
+    font-family: 'Rubik', sans-serif;
+
+
 }
 
 .jumbotron {
@@ -62,6 +69,7 @@ html {
     max-width: 100%;
     object-fit: cover;
 }
+
 
 
 
@@ -180,6 +188,20 @@ html {
     font-size: 45px;
 }
 
+
+.a-contact {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.a-contact:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+
 .fas {
     color: #2b2d2f;
 }
@@ -188,11 +210,20 @@ html {
 }
 
 .kuggen {
-    background-image: url("/assets/kuggen.png");
+    /*background-image: url("/assets/kuggen.png");*/
+    background: #3494E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
 }
 
 .gui {
-    background-image: url("/assets/gui.png");
+    /*background-image: url("/assets/gui.png");*/
+    background: #606c88;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .imat {
@@ -200,5 +231,10 @@ html {
 }
 
 .illegal-aliens {
-    background-image: url("/assets/illegal.png");
+
+    background: #606c88;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /*background-image: url("/assets/illegal.png");*/
 }
