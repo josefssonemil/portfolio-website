@@ -168,12 +168,12 @@ html {
 
     font-weight: 600;
     /*background:rgba(0,0,0,0.6);*/
-    -webkit-transform: translatey(-100px);
-    -ms-transform: translatey(-100px);
-    transform: translatey(-100px);
+   -webkit-transform: translatey(15vh);
+    -ms-transform: translatey(15vh);
+    transform: translatey(15vh);
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    padding-top: 40%;
+    padding-top: 10vh;
 }
 
 
@@ -207,12 +207,12 @@ html {
 
     position: relative;
 
-    -webkit-transform: translatey(-100px);
-    -ms-transform: translatey(-100px);
-    transform: translatey(-100px);
+    -webkit-transform: translatey(3vh);
+    -ms-transform: translatey(3vh);
+    transform: translatey(3vh);
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    padding-top: 50%;
+    padding-top: 5vh;
 
 }
 
