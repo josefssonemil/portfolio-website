@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 
 body,
 html {
@@ -40,9 +41,9 @@ html {
 
 
 .jumbotron {
-    /*background-image: url('https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80');
-    */
-    background-image: url("/assets/bg.svg");
+    background-image: url('https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80');
+    
+    /*background-image: url("/assets/bg.svg");*/
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -51,14 +52,32 @@ html {
 .jumbotron h1 {
     font-size: 65px;
     font-weight: 800;
-    color: #EEE;
+    color: #d2e6eb;
+    opacity:95%;
 }
 
 .jumbotron h2 {
     font-size: 30px;
     font-weight: 400;
-    color: #EEE;
+    color: #d2e6eb;
+    opacity: 95%;
 }
+
+.strong-jumbo {
+    font-family: 'Play', sans-serif;
+    background: -webkit-linear-gradient(90deg, rgba(29,93,113,1) 0%, rgba(3,182,218,1) 100%);
+    background: linear-gradient(90deg, rgba(29,93,113,1) 0%, rgba(3,182,218,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.strong-jumbo-1 {
+    font-family: 'Play', sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+}
+
 
 .padding-jumbotron {
     padding-top: 15%;
