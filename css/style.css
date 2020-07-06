@@ -5,8 +5,11 @@
 body,
 html {
     width: 100%;
-    background-color: white;
-    color: black;
+    background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(315deg, #282c31 0%, #28313b 74%);
+background: linear-gradient(315deg, #282c31 0%, #28313b 74%);
+
+    color: rgb(228, 228, 228);
     /*font-family: 'Poppins', sans-serif;*/
     font-family: 'Rubik', sans-serif;
 }
@@ -65,8 +68,8 @@ html {
 
 .strong-jumbo {
     font-family: 'Play', sans-serif;
-    background: -webkit-linear-gradient(90deg, rgba(29,93,113,1) 0%, rgba(3,182,218,1) 100%);
-    background: linear-gradient(90deg, rgba(29,93,113,1) 0%, rgba(3,182,218,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgb(53, 141, 168) 0%, rgba(3,182,218,1) 100%);
+    background: linear-gradient(90deg, rgba(53,141,168,1) 0%, rgba(3,182,218,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -88,6 +91,62 @@ html {
     text-align: left;
     margin: 30px 0;
     border: 2.5px solid #EEE;
+}
+
+.hr-section {
+    margin: 5em 0;
+    text-align: center;
+    border: none;
+  }
+  
+  .hr-section:before {
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #eee;
+    margin: 0 0.4em;
+  }
+  
+  .hr-section:after {
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #eee;
+    margin: 0 0.4em;
+  }
+
+.section-title {
+    font-size: 50px;
+    font-weight: 800;
+
+    font-family: 'Play', sans-serif;
+
+    background: -webkit-linear-gradient(90deg, rgb(53, 141, 168) 0%, rgba(3,182,218,1) 100%);
+    background: linear-gradient(90deg, rgba(53,141,168,1) 0%, rgba(3,182,218,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section-1 {
+    
+}
+
+.section-1 h1 {
+    
+    font-size: 40px;
+    font-weight: 800;
+
+    font-family: 'Play', sans-serif;
+
+    background: -webkit-linear-gradient(90deg, rgb(53, 141, 168) 0%, rgba(3,182,218,1) 100%);
+    background: linear-gradient(90deg, rgba(53,141,168,1) 0%, rgba(3,182,218,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 .card-img {
@@ -255,7 +314,11 @@ html {
 
 
 .fas {
-    color: #2b2d2f;
+    color: -webkit-linear-gradient(90deg, rgb(53, 141, 168) 0%, rgba(3,182,218,1) 100%);
+    color: linear-gradient(90deg, rgba(53,141,168,1) 0%, rgba(3,182,218,1) 100%);
+
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 .project-halo {
