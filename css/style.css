@@ -8,9 +8,36 @@ html {
     color: black;
     /*font-family: 'Poppins', sans-serif;*/
     font-family: 'Rubik', sans-serif;
-
-
 }
+
+
+.navbar {
+    background-color: #2b2d2f;
+    color: #EEE;
+    justify-content: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #EEE;
+}
+
+.navbar a:hover {
+    color: #AAA;
+}
+
+.navbar-nav {
+    justify-content: center;
+}
+
+/*Offset for header*/
+:target::before {
+    content: "";
+    display: block;
+    height: 70px; /* fixed header height*/
+    margin: -70px 0 0; /* negative fixed header height */
+  }
+
 
 .jumbotron {
     /*background-image: url('https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80');
@@ -207,24 +234,31 @@ html {
 .fas {
     color: #2b2d2f;
 }
-.project-halo{
+
+.project-halo {
     background-image: url("/assets/project-halo.jpg");
 }
 
 .kuggen {
     /*background-image: url("/assets/kuggen.png");*/
-    background: #3494E6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: #3494E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EC6EAD, #3494E6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 
 .gui {
     /*background-image: url("/assets/gui.png");*/
-    background: #606c88;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #606c88;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f4c6b, #606c88);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -234,9 +268,12 @@ background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, F
 
 .illegal-aliens {
 
-    background: #606c88;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #606c88;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f4c6b, #606c88);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     /*background-image: url("/assets/illegal.png");*/
 }
