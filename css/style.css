@@ -122,6 +122,19 @@ html {
     -webkit-text-fill-color: transparent;
 }
 
+
+.section-title-smaller {
+    font-size: 38px;
+    font-weight: 500;
+
+    font-family: 'Play', sans-serif;
+
+    background: -webkit-linear-gradient(90deg, rgb(53, 141, 168) 0%, rgba(3,182,218,1) 100%);
+    background: linear-gradient(90deg, rgba(53,141,168,1) 0%, rgba(3,182,218,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .section-1 {
     
 }
